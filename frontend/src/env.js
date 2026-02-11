@@ -1,5 +1,4 @@
 import { createEnv } from "@t3-oss/env-nextjs";
-import { A } from "node_modules/@daveyplate/better-auth-ui/dist/auth-ui-provider-3JMiYGSS";
 import { z } from "zod";
 
 export const env = createEnv({
