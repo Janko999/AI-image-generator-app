@@ -9,9 +9,9 @@ export default function Upgrade() {
     // eslint-disable-next-line @typescript-eslint/no-unsafe-call
     await authClient.checkout({
       products: [
-        "6c84189e-1ce2-4214-ac43-b439bb1e544e",
-        "038b2068-adb4-4d8b-803c-640462f71ed4",
-        "dd2f6988-aa65-476f-abec-f25c2ba0c58b",
+        "44e37301-28ba-46c4-be5e-b73ec1431061",
+        "24f26ad2-6dd1-4c4a-b7d9-4c6f0c46f2e9",
+        "9ac72409-106e-4629-aa0d-c67a91e9e134",
       ],
     });
   };
