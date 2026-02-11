@@ -6,6 +6,7 @@ import { Crown, Sparkles } from "lucide-react";
 
 export default function Upgrade() {
   const upgrade = async () => {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-call
     await authClient.checkout({
       products: [
         "6c84189e-1ce2-4214-ac43-b439bb1e544e",
